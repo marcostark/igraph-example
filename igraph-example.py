@@ -26,4 +26,6 @@ g.vs['size'] = ['60']
 g.vs['color'] = ['green','red','blue','yellow']
 
 layout = g.layout("kk")
+#g.write_svg('primeiro.svg', layout=layout, vertex_size=20)
+
 plot(g,layout=layout,bbox = (500, 300), margin = 50)
