@@ -1,6 +1,5 @@
 from igraph import *
 import csv
-import pandas as pd
 
 contatos = []
 relacionamentos = []
